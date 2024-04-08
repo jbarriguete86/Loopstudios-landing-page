@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background: url("./images/desktop/image-hero.jpg");
+}
+
+/* services section */
+
+.deep--earth{
+background: url('./images/desktop/image-deep-earth.jpg')
+}
+
+.night--arcade{
+background: url('./images/desktop/image-night-arcade.jpg');
+}
+
+.soccer--team{
+background: url('./images/desktop/image-soccer-team.jpg');
+}
+
+.the--grid{
+background: url('./images/desktop/image-grid.jpg');
+}
+
+.above--vr{
+background: url('./images/desktop/image-from-above.jpg');
+}
+
+.pocket--borealis{
+background: url('./images/desktop/image-pocket-borealis.jpg');
+}
+
+.the--curiosity{
+background: url('./images/desktop/image-curiosity.jpg');
+}
+
+.make--fisheye{
+background: url('./images/desktop/image-fisheye.jpg');
+}
