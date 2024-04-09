@@ -4,29 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Loopstudios landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./index.css">
 </head>
 <body>
   <header>
     <div class="navbar">
+      <img class="logo" src="./images/logo.svg" alt="logo of loopstudios">
+      <img class="hambg--icon" src="./images/icon-hamburger.svg" alt="image of a icon-hamburger" />
+      <p class="closeNav--btn closed">X</p>
+    <div class="nav--inner closed">
       <p>About</p>
       <p>Careers</p>
       <p>Events</p>
       <p>Products</p>
       <p>Support</p>
     </div>
+    </div>
     <h1>Immersive experiences that deliver</h1>
   </header>
   <main>
     <section class="about">
       <img src="./images/desktop/image-interactive.jpg" alt="a picture of a person playing with vr lenses">
-      <h2>The leader in interactive VR</h2>
-      <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
-        projects for some of the best companies around the globe. Our award-winning 
-        creations have transformed businesses through digital experiences that bind 
-        to their brand.</p>
+      <div class="about--inner">
+        <h2>The leader in interactive VR</h2>
+        <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+          projects for some of the best companies around the globe. Our award-winning 
+          creations have transformed businesses through digital experiences that bind 
+          to their brand.</p>
+      </div>
     </section>
     <section class="services">
       <h2>Our creations</h2>
@@ -67,7 +76,7 @@
     </section>
   </main>
   <footer>
-    <h3>loopstudios</h3>
+    <img class="logo--footer" src="./images/logo.svg" alt="logo of loopstudios">
     <div class="footer--navs">
       <p>About</p>
       <p>Careers</p>
@@ -75,11 +84,18 @@
       <p>Products</p>
       <p>Support</p>
     </div>
-    <p>© 2021 Loopstudios. All rights reserved.</p>
+    <div class="footer--socMedia">
+      <img class="social--media"  src="./images/icon-facebook.svg" alt="icon of facebook" />
+      <img class="social--media"  src="./images/icon-twitter.svg" alt="icon of twitter" />
+      <img class="social--media"  src="./images/icon-pinterest.svg" alt="icon of pinteres"/>
+      <img class="social--media"  src="./images/icon-instagram.svg" alt="icon of instagram"/>
+    </div>
+    <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Joshe Barriguetee</a>.
+      <p>Challenge by <span><a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></span>.</p> 
+      <p>Coded by <span><a href="#">Joshe Barriguete</a></span>.</p>
     </div>
   </footer>
+  <script src="index.js" type="module"></script>
 </body>
 </html>
